@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Rajnesh</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#topskills">Top Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Rajnesh Kr. Ranjan</h1>
+            <h3>And I'm a <span>Software Engineer</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic 
+                uod dolorem iusto cupiditate laudantium, dol.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/myProfilepic.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/myProfilepic.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Developer</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Corrupti voluptatem quidem sint rem animi, voluptatibus
+                 explicabo dolorem hic vitae magni eligendi, repudiandae laborum 
+                 facilis voluptatum ea quo esse doloribus. Neque!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="topskills" id="topskills">
+        <h2 class="heading">Top <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bxl-python' ></i>
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, numquam vel facere sed pariatur</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, numquam vel facere sed pariatur</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-postgresql' ></i>
+                <h3>SQL Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, numquam vel facere sed pariatur</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">Work <span>Experience</span></h2>
+
+        <div class="experience-container">
+            <div class="experience-box">
+                <h3>Role 1</h3>
+                <h4>Company 1</h4>
+                <h4><i class='bx bxs-calendar'></i>: 2021-Present</h4>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                </ul>
+            </div>
+
+            <div class="experience-box">
+                <h3>Role 1</h3>
+                <h4>Company 1</h4>
+                <h4><i class='bx bxs-calendar'></i>: 2021-Present</h4>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                </ul>
+            </div>
+
+            <div class="experience-box">
+                <h3>Role 1</h3>
+                <h4>Company 1</h4>
+                <h4><i class='bx bxs-calendar'></i>: 2021-Present</h4>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" name="fullname" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Mobile Number">
+                <input type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="8" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>All rights reserved to no one <i class='bx bx-wink-smile' ></i> &nbsp | &nbsp Made with <i class='bx bxs-heart'></i></p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
