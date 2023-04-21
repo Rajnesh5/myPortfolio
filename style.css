@@ -422,7 +422,11 @@ span{
     .topskills h2{
         margin-bottom: 3rem;
     }
-
+    
+    .footer-text p {
+        font-size: 1.2rem;
+    }
+}
 
 }
 
